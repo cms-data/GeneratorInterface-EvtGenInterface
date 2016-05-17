@@ -1,3 +1,4 @@
+# $Id: DECAY_NOLONGLIFE.DEC,v 1.1 2009/04/27 19:06:48 yarba Exp $ 
 #Define the B0B0bar mass difference
 Define dm 0.502e12
 Define dgamma 0
@@ -4360,16 +4361,16 @@ Decay B*-
 1.0000    B-  gamma                       VSP_PWAVE;
 Enddecay
 Decay B*0
-1.0000    B0  gamma                       VSP_PWAVE;
+#1.0000    B0  gamma                       VSP_PWAVE;
 Enddecay
 Decay anti-B*0
-1.0000    anti-B0 gamma                       VSP_PWAVE;
+#1.0000    anti-B0 gamma                       VSP_PWAVE;
 Enddecay
 Decay B_s*0
-1.0000    B_s0  gamma                      VSP_PWAVE;
+#1.0000    B_s0  gamma                      VSP_PWAVE;
 Enddecay
 Decay anti-B_s*0
-1.0000    anti-B_s0 gamma                       VSP_PWAVE;
+#1.0000    anti-B_s0 gamma                       VSP_PWAVE;
 Enddecay
 #
 # B_s decays.
@@ -8256,9 +8257,9 @@ Decay B_c-
 0.00004    anti-D0    e-      anti-nu_e         PHOTOS  PHSP;
 0.00018    anti-D*0   e-      anti-nu_e         PHOTOS  PHSP;
 0.04030    anti-B_s0  e-      anti-nu_e         PHOTOS  PHSP;
-0.05060    anti-B_s*0 e-      anti-nu_e         PHOTOS  PHSP;
+#0.05060    anti-B_s*0 e-      anti-nu_e         PHOTOS  PHSP;
 0.00340    anti-B0    e-      anti-nu_e         PHOTOS  PHSP;
-0.00580    anti-B*0   e-      anti-nu_e         PHOTOS  PHSP;
+#0.00580    anti-B*0   e-      anti-nu_e         PHOTOS  PHSP;
 #
 0.01900    J/psi      mu-     anti-nu_mu        PHOTOS  PHSP;
 0.00094    psi(2S)    mu-     anti-nu_mu        PHOTOS  PHSP;
@@ -8267,9 +8268,9 @@ Decay B_c-
 0.00004    anti-D0    mu-     anti-nu_mu        PHOTOS  PHSP;
 0.00018    anti-D*0   mu-     anti-nu_mu        PHOTOS  PHSP;
 0.04030    anti-B_s0  mu-     anti-nu_mu        PHOTOS  PHSP;
-0.05060    anti-B_s*0 mu-     anti-nu_mu        PHOTOS  PHSP;
+#0.05060    anti-B_s*0 mu-     anti-nu_mu        PHOTOS  PHSP;
 0.00340    anti-B0    mu-     anti-nu_mu        PHOTOS  PHSP;
-0.00580    anti-B*0   mu-     anti-nu_mu        PHOTOS  PHSP;
+#0.00580    anti-B*0   mu-     anti-nu_mu        PHOTOS  PHSP;
   #
   0.00480    J/psi      tau-    anti-nu_tau               PHSP;
   0.00008    psi(2S)    tau-    anti-nu_tau               PHSP;
@@ -8320,18 +8321,18 @@ Decay B_c-
   0.07200    rho-       anti-B_s0             SVS;
   0.01060    anti-B_s0  K-                    PHSP;
   0.00000    K*-        anti-B_s0             SVS;
-  0.06500    anti-B_s*0 pi-                   SVS;
-  0.20200    anti-B_s*0 rho-                  SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
-  0.00370    anti-B_s*0 K-                    SVS;
-  0.00000    anti-B_s*0 K*-                   SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
+  #0.06500    anti-B_s*0 pi-                   SVS;
+  #0.20200    anti-B_s*0 rho-                  SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
+  #0.00370    anti-B_s*0 K-                    SVS;
+  #0.00000    anti-B_s*0 K*-                   SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
   0.01060    anti-B0    pi-                   PHSP;
   0.00960    rho-       anti-B0               SVS;
   0.00070    anti-B0    K-                    PHSP;
   0.00015    K*-        anti-B0               SVS;
-  0.00950    anti-B*0   pi-                   SVS;
-  0.02570    anti-B*0   rho-                  SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
-  0.00055    anti-B*0   K-                    SVS;
-  0.00058    anti-B*0   K*-                   SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
+  #0.00950    anti-B*0   pi-                   SVS;
+  #0.02570    anti-B*0   rho-                  SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
+  #0.00055    anti-B*0   K-                    SVS;
+  #0.00058    anti-B*0   K*-                   SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
   0.00037    B-         pi0                   PHSP;
   0.00034    rho0       B-                    SVS;
   0.01980    B-         K0                    PHSP;
@@ -8365,9 +8366,9 @@ Decay B_c+
 0.00004    D0         e+          nu_e         PHOTOS  PHSP;
 0.00018    D*0        e+          nu_e         PHOTOS  PHSP;
 0.04030    B_s0       e+          nu_e         PHOTOS  PHSP;
-0.05060    B_s*0      e+          nu_e         PHOTOS  PHSP;
+#0.05060    B_s*0      e+          nu_e         PHOTOS  PHSP;
 0.00340    B0         e+          nu_e         PHOTOS  PHSP;
-0.00580    B*0        e+          nu_e         PHOTOS  PHSP;
+#0.00580    B*0        e+          nu_e         PHOTOS  PHSP;
 #
 0.01900    J/psi      mu+         nu_mu        PHOTOS  PHSP;
 0.00094    psi(2S)    mu+         nu_mu        PHOTOS  PHSP;
@@ -8376,9 +8377,9 @@ Decay B_c+
 0.00004    D0         mu+         nu_mu        PHOTOS  PHSP;
 0.00018    D*0        mu+         nu_mu        PHOTOS  PHSP;
 0.04030    B_s0       mu+         nu_mu        PHOTOS  PHSP;
-0.05060    B_s*0      mu+         nu_mu        PHOTOS  PHSP;
+#0.05060    B_s*0      mu+         nu_mu        PHOTOS  PHSP;
 0.00340    B0         mu+         nu_mu        PHOTOS  PHSP;
-0.00580    B*0        mu+         nu_mu        PHOTOS  PHSP;
+#0.00580    B*0        mu+         nu_mu        PHOTOS  PHSP;
   #
   0.00480    J/psi      tau+        nu_tau               PHSP;
   0.00008    psi(2S)    tau+        nu_tau               PHSP;
@@ -8428,18 +8429,18 @@ Decay B_c+
   0.07200    rho+       B_s0                  SVS;
   0.01060    B_s0       K+                    PHSP;
   0.00000    K*+        B_s0                  SVS;
-  0.06500    B_s*0      pi+                   SVS;
-  0.20200    B_s*0      rho+                  SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
-  0.00370    B_s*0      K+                    SVS;
-  0.00000    B_s*0      K*+                   SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
+  #0.06500    B_s*0      pi+                   SVS;
+  #0.20200    B_s*0      rho+                  SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
+  #0.00370    B_s*0      K+                    SVS;
+  #0.00000    B_s*0      K*+                   SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
   0.01060    B0         pi+                   PHSP;
   0.00960    rho+       B0                    SVS;
   0.00070    B0         K+                    PHSP;
   0.00015    K*+        B0                    SVS;
-  0.00950    B*0        pi+                   SVS;
-  0.02570    B*0        rho+                  SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
-  0.00055    B*0        K+                    SVS;
-  0.00058    B*0        K*+                   SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
+  #0.00950    B*0        pi+                   SVS;
+  #0.02570    B*0        rho+                  SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
+  #0.00055    B*0        K+                    SVS;
+  #0.00058    B*0        K*+                   SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
   0.00037    B+         pi0                   PHSP;
   0.00034    rho0       B+                    SVS;
   0.01980    B+         anti-K0               PHSP;
@@ -8517,29 +8518,29 @@ Decay B_0*-
 Enddecay
 #  PDG Id = 20523 Broad : S wave
 Decay B'_1+
-  0.6670     B*0      pi+         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+  #0.6670     B*0      pi+         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
   0.3330     B*+      pi0         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
 Enddecay
 Decay B'_1-
-  0.6670     anti-B*0   pi-       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+  #0.6670     anti-B*0   pi-       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
   0.3330     B*-        pi0       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
 Enddecay
 #  PDG Id = 10523  Narrow : D wave
 Decay B_1+
-  0.6670     B*0      pi+         VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
+  #0.6670     B*0      pi+         VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
   0.3330     B*+      pi0         VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
 Enddecay
 Decay B_1- 
-  0.6670     anti-B*0   pi-       VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
+  #0.6670     anti-B*0   pi-       VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
   0.3330     B*-        pi0       VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
 Enddecay
 #  PDG Id = 525 Narrow : D wave
 Decay B_2*+
   0.3000     B0     pi+           TSS;
   0.1500     B+     pi0           TSS;
-  0.1600     B*0    pi+           TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+  #0.1600     B*0    pi+           TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
   0.0800     B*+    pi0           TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
-  0.1300     B*0    pi+    pi0    PHSP;
+  #0.1300     B*0    pi+    pi0    PHSP;
   0.0600     B*+    pi+    pi-    PHSP;
   0.0800     B0     pi+    pi0    PHSP;
   0.0400     B+     pi+    pi-    PHSP;
@@ -8547,9 +8548,9 @@ Enddecay
 Decay B_2*-
   0.3000     anti-B0  pi-         TSS;
   0.1500     B-       pi0         TSS;
-  0.1600     anti-B*0  pi-        TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+  #0.1600     anti-B*0  pi-        TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
   0.0800     B*-      pi0         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
-  0.1300     anti-B*0  pi-   pi0  PHSP;
+  #0.1300     anti-B*0  pi-   pi0  PHSP;
   0.0600     B*-      pi-    pi+  PHSP;
   0.0800     anti-B0  pi-    pi0  PHSP;
   0.0400     B-       pi-    pi+  PHSP;
@@ -8566,29 +8567,29 @@ Enddecay
 #  PDG Id = 20513 Broad : S wave
 Decay B'_10
   0.6670     B*+    pi-           VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
-  0.3330     B*0    pi0           VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+  #0.3330     B*0    pi0           VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
 Enddecay
 Decay anti-B'_10
   0.6670     B*-    pi+           VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
-  0.3330     anti-B*0   pi0       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+  #0.3330     anti-B*0   pi0       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
 Enddecay
 #  PDG Id = 10513 Narrow : D wave
 Decay B_10
   0.6670     B*+    pi-           VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
-  0.3330     B*0    pi0           VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
+  #0.3330     B*0    pi0           VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
 Enddecay
 Decay anti-B_10
   0.6670     B*-    pi+           VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
-  0.3330     anti-B*0   pi0       VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
+  #0.3330     anti-B*0   pi0       VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
 Enddecay
 #  PDG Id = 515
 Decay B_2*0
   0.3000     B+    pi-            TSS;
   0.1500     B0    pi0            TSS;
   0.1600     B*+   pi-            TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
-  0.0800     B*0   pi0            TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+  #0.0800     B*0   pi0            TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
   0.1300     B*+   pi-   pi0      PHSP;
-  0.0600     B*0   pi+   pi-      PHSP;
+  #0.0600     B*0   pi+   pi-      PHSP;
   0.0800     B+    pi-   pi0      PHSP;
   0.0400     B0    pi+   pi-      PHSP;
 Enddecay
@@ -8596,9 +8597,9 @@ Decay anti-B_2*0
   0.3000     B-    pi+            TSS;
   0.1500     anti-B0  pi0         TSS;
   0.1600     B*-   pi+            TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
-  0.0800     anti-B*0  pi0        TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+  #0.0800     anti-B*0  pi0        TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
   0.1300     B*-   pi+  pi0       PHSP;
-  0.0600     anti-B*0  pi-  pi+   PHSP;
+  #0.0600     anti-B*0  pi-  pi+   PHSP;
   0.0800     B-    pi+   pi0      PHSP;
   0.0400     anti-B0   pi-   pi+  PHSP;
 Enddecay
@@ -8614,33 +8615,33 @@ Enddecay
 #  PDG Id = 20533   Broad : S wave
 Decay B'_s10
   0.5000     B*+  K-              VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
-  0.5000     B*0  anti-K0         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+  #0.5000     B*0  anti-K0         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
 Enddecay
 Decay anti-B'_s10
   0.5000     B*-  K+              VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
-  0.5000     anti-B*0   K0        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+  #0.5000     anti-B*0   K0        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
 Enddecay
 #  PDG Id = 10533   Narrow : D wave
 Decay B_s10
   0.5000     B*+  K-              VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
-  0.5000     B*0  anti-K0         VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
+  #0.5000     B*0  anti-K0         VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
 Enddecay
 Decay anti-B_s10
   0.5000     B*-  K+              VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
-  0.5000     anti-B*0    K0       VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
+  #0.5000     anti-B*0    K0       VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
 Enddecay
 #  PDG Id = 535   Narrow : D wave
 Decay B_s2*0
   0.3000     B+   K-              TSS;
   0.3000     B0   anti-K0         TSS;
   0.2000     B*+  K-              TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
-  0.2000     B*0  anti-K0         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+  #0.2000     B*0  anti-K0         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
 Enddecay
 Decay anti-B_s2*0
   0.3000     B-   K+              TSS;
   0.3000     anti-B0  K0          TSS;
   0.2000     B*-  K+              TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
-  0.2000     anti-B*0 K0          TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+  #0.2000     anti-B*0 K0          TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
 Enddecay
 #  PDG Id = 543
 Decay B_c*+
@@ -8653,13 +8654,13 @@ Enddecay
 Decay B_c2*+
   0.3000     B0    D+             TSS;
   0.3000     B+    D0             TSS;
-  0.2000     B*0   D+             TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+  #0.2000     B*0   D+             TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
   0.2000     B*+   D0             TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
 Enddecay
 Decay B_c2*-
   0.3000     anti-B0  D-          TSS;
   0.3000     B-    anti-D0        TSS;
-  0.2000     anti-B*0  D-         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+  #0.2000     anti-B*0  D-         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
   0.2000     B*-   anti-D0        TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
 Enddecay
 #  PDG Id = 5114
@@ -8715,20 +8716,20 @@ Decay B_c0*-
 Enddecay
 #  PDG Id = 10543  Narrow : D wave
 Decay B_c1+
-  0.5000     B*0      D+          VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
+  #0.5000     B*0      D+          VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
   0.5000     B*+      D0          VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
 Enddecay
 Decay B_c1-
-  0.5000     anti-B*0  D-         VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
+  #0.5000     anti-B*0  D-         VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
   0.5000     B*-       anti-D0    VVS_PWAVE 0.0 0.0 0.0 0.0 1.0 0.0;
 Enddecay
 #  PDG Id = 20543 Broad : S wave
 Decay B'_c1+
-  0.5000     B*0       D+         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+  #0.5000     B*0       D+         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
   0.5000     B*+       D0         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
 Enddecay
 Decay B'_c1-
-  0.5000     anti-B*0  D-         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+  #0.5000     anti-B*0  D-         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
   0.5000     B*-       anti-D0    VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
 Enddecay
 

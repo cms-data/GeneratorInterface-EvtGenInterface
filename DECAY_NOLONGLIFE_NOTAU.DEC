@@ -5324,38 +5324,6 @@ Enddecay
 #
 # The tau branching fractions needs to be looked over!
 #
-Decay tau-
-0.1778         e-   anti-nu_e   nu_tau       PHOTOS TAULNUNU;
-0.1731         mu-  anti-nu_mu   nu_tau      PHOTOS  TAULNUNU;
-0.1095         pi-  nu_tau                     TAUSCALARNU;
-0.2531  pi- pi0  nu_tau   TAUHADNU -0.108 0.775 0.149 1.364 0.400;
-0.09234  pi- pi- pi+  nu_tau   TAUHADNU -0.108 0.775 0.149 1.364 0.400 1.23 0.4;
-0.0910  pi0 pi0 pi-  nu_tau   TAUHADNU -0.108 0.775 0.149 1.364 0.400 1.23 0.4;
-#0.2515         rho- nu_tau                     TAUVECTORNU;
-#0.1790         a_1-  nu_tau                     TAUVECTORNU;
-0.00686         K-   nu_tau                     TAUSCALARNU;
-0.0134         K*-  nu_tau                     TAUVECTORNU;
-0.0450         nu_tau     pi-     pi+     pi-     pi0     PYTHIA    41;
-0.0100         nu_tau     pi-     pi0     pi0     pi0     PYTHIA    41;
-0.0015         nu_tau     K-      pi-     K+              PYTHIA    41;
-0.0015         nu_tau     K0      pi-     anti-K0         PYTHIA    41;
-0.0015         nu_tau     K-      pi0     K0              PYTHIA    41;
-0.0005         nu_tau     K-      pi0     pi0             PYTHIA    41;
-0.0050         nu_tau     K-      pi+     pi-             PYTHIA    41;
-0.0055         nu_tau     pi-     anti-K0 pi0             PYTHIA    41;
-0.0017         nu_tau     eta     pi-     pi0             PYTHIA    41;
-0.0013         nu_tau     gamma   pi-     pi0             PYTHIA    41;
-0.0009         nu_tau     pi-     pi-     pi+  pi0  pi0   PHSP;
-0.0008         nu_tau     pi-     pi-     pi-  pi+  pi+   PHSP;
-0.0003         nu_tau     pi-     pi-  pi-  pi+  pi+  pi0 PHSP;
-0.0005         nu_tau     pi-     pi-  pi+  pi0  pi0  pi0 PHSP;
-0.0010         nu_tau     pi-     pi0  pi0  pi0  pi0      PHSP;
-0.0039         nu_tau     pi-     omega     pi0           PYTHIA    41;
-0.0010         nu_tau     K-      K0                      PYTHIA    41;
-0.0010         nu_tau     K-      omega                   PYTHIA    41;
-Enddecay
-#
-CDecay tau+
 #
 #   Vector Mesons
 #

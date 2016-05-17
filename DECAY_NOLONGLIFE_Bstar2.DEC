@@ -1,3 +1,4 @@
+# $Id: DECAY_NOLONGLIFE.DEC, Bs*0 decays commented out 
 #Define the B0B0bar mass difference
 Define dm 0.502e12
 Define dgamma 0
@@ -4366,10 +4367,10 @@ Decay anti-B*0
 1.0000    anti-B0 gamma                       VSP_PWAVE;
 Enddecay
 Decay B_s*0
-1.0000    B_s0  gamma                      VSP_PWAVE;
+#1.0000    B_s0  gamma                      VSP_PWAVE;
 Enddecay
 Decay anti-B_s*0
-1.0000    anti-B_s0 gamma                       VSP_PWAVE;
+#1.0000    anti-B_s0 gamma                       VSP_PWAVE;
 Enddecay
 #
 # B_s decays.
@@ -8256,9 +8257,9 @@ Decay B_c-
 0.00004    anti-D0    e-      anti-nu_e         PHOTOS  PHSP;
 0.00018    anti-D*0   e-      anti-nu_e         PHOTOS  PHSP;
 0.04030    anti-B_s0  e-      anti-nu_e         PHOTOS  PHSP;
-0.05060    anti-B_s*0 e-      anti-nu_e         PHOTOS  PHSP;
+#0.05060    anti-B_s*0 e-      anti-nu_e         PHOTOS  PHSP;
 0.00340    anti-B0    e-      anti-nu_e         PHOTOS  PHSP;
-0.00580    anti-B*0   e-      anti-nu_e         PHOTOS  PHSP;
+#0.00580    anti-B*0   e-      anti-nu_e         PHOTOS  PHSP;
 #
 0.01900    J/psi      mu-     anti-nu_mu        PHOTOS  PHSP;
 0.00094    psi(2S)    mu-     anti-nu_mu        PHOTOS  PHSP;
@@ -8267,9 +8268,9 @@ Decay B_c-
 0.00004    anti-D0    mu-     anti-nu_mu        PHOTOS  PHSP;
 0.00018    anti-D*0   mu-     anti-nu_mu        PHOTOS  PHSP;
 0.04030    anti-B_s0  mu-     anti-nu_mu        PHOTOS  PHSP;
-0.05060    anti-B_s*0 mu-     anti-nu_mu        PHOTOS  PHSP;
+#0.05060    anti-B_s*0 mu-     anti-nu_mu        PHOTOS  PHSP;
 0.00340    anti-B0    mu-     anti-nu_mu        PHOTOS  PHSP;
-0.00580    anti-B*0   mu-     anti-nu_mu        PHOTOS  PHSP;
+#0.00580    anti-B*0   mu-     anti-nu_mu        PHOTOS  PHSP;
   #
   0.00480    J/psi      tau-    anti-nu_tau               PHSP;
   0.00008    psi(2S)    tau-    anti-nu_tau               PHSP;
@@ -8320,18 +8321,18 @@ Decay B_c-
   0.07200    rho-       anti-B_s0             SVS;
   0.01060    anti-B_s0  K-                    PHSP;
   0.00000    K*-        anti-B_s0             SVS;
-  0.06500    anti-B_s*0 pi-                   SVS;
-  0.20200    anti-B_s*0 rho-                  SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
-  0.00370    anti-B_s*0 K-                    SVS;
-  0.00000    anti-B_s*0 K*-                   SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
+  #0.06500    anti-B_s*0 pi-                   SVS;
+  #0.20200    anti-B_s*0 rho-                  SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
+  #0.00370    anti-B_s*0 K-                    SVS;
+  #0.00000    anti-B_s*0 K*-                   SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
   0.01060    anti-B0    pi-                   PHSP;
   0.00960    rho-       anti-B0               SVS;
   0.00070    anti-B0    K-                    PHSP;
   0.00015    K*-        anti-B0               SVS;
-  0.00950    anti-B*0   pi-                   SVS;
-  0.02570    anti-B*0   rho-                  SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
-  0.00055    anti-B*0   K-                    SVS;
-  0.00058    anti-B*0   K*-                   SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
+  #0.00950    anti-B*0   pi-                   SVS;
+  #0.02570    anti-B*0   rho-                  SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
+  #0.00055    anti-B*0   K-                    SVS;
+  #0.00058    anti-B*0   K*-                   SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
   0.00037    B-         pi0                   PHSP;
   0.00034    rho0       B-                    SVS;
   0.01980    B-         K0                    PHSP;
@@ -8365,7 +8366,7 @@ Decay B_c+
 0.00004    D0         e+          nu_e         PHOTOS  PHSP;
 0.00018    D*0        e+          nu_e         PHOTOS  PHSP;
 0.04030    B_s0       e+          nu_e         PHOTOS  PHSP;
-0.05060    B_s*0      e+          nu_e         PHOTOS  PHSP;
+#0.05060    B_s*0      e+          nu_e         PHOTOS  PHSP;
 0.00340    B0         e+          nu_e         PHOTOS  PHSP;
 0.00580    B*0        e+          nu_e         PHOTOS  PHSP;
 #
@@ -8376,7 +8377,7 @@ Decay B_c+
 0.00004    D0         mu+         nu_mu        PHOTOS  PHSP;
 0.00018    D*0        mu+         nu_mu        PHOTOS  PHSP;
 0.04030    B_s0       mu+         nu_mu        PHOTOS  PHSP;
-0.05060    B_s*0      mu+         nu_mu        PHOTOS  PHSP;
+#0.05060    B_s*0      mu+         nu_mu        PHOTOS  PHSP;
 0.00340    B0         mu+         nu_mu        PHOTOS  PHSP;
 0.00580    B*0        mu+         nu_mu        PHOTOS  PHSP;
   #
@@ -8428,10 +8429,10 @@ Decay B_c+
   0.07200    rho+       B_s0                  SVS;
   0.01060    B_s0       K+                    PHSP;
   0.00000    K*+        B_s0                  SVS;
-  0.06500    B_s*0      pi+                   SVS;
-  0.20200    B_s*0      rho+                  SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
-  0.00370    B_s*0      K+                    SVS;
-  0.00000    B_s*0      K*+                   SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
+  #0.06500    B_s*0      pi+                   SVS;
+  #0.20200    B_s*0      rho+                  SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
+  #0.00370    B_s*0      K+                    SVS;
+  #0.00000    B_s*0      K*+                   SVV_HELAMP 1.0 0.0 1.0 0.0 1.0 0.0;
   0.01060    B0         pi+                   PHSP;
   0.00960    rho+       B0                    SVS;
   0.00070    B0         K+                    PHSP;

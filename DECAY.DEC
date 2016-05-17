@@ -6119,9 +6119,10 @@ Enddecay
 #  Strange Mesons
 #
 #
-#
-#  K_S0 is decayed in GEANT
-#
+Decay K_S0
+0.6861    pi+  pi-                          PHSP;
+0.3139    pi0  pi0                          PHSP;
+Enddecay
 #
 #  K_L0 is decayed in GEANT
 #
@@ -7461,9 +7462,22 @@ Enddecay
 #
 #   Light Baryons
 #
-#
-#  Lambda0 is decayed in GEANT
-#
+Decay Lambda0
+0.6390    p+  pi-                       PHSP;
+0.3580    n0  pi0                       PHSP;
+0.0018    n0  gamma                      PHSP;
+0.0005    p+  pi-  gamma                 PHSP;
+0.0006    p+  e-   anti-nu_e           PHOTOS PHSP;
+0.0001    p+  mu-  anti-nu_mu          PHOTOS PHSP;
+Enddecay
+Decay anti-Lambda0
+0.6390    anti-p-  pi+                      PHSP;
+0.3580    anti-n0  pi0                      PHSP;
+0.0018    anti-n0  gamma                     PHSP;
+0.0005    anti-p-  pi+  gamma                PHSP;
+0.0006    anti-p-  e+   nu_e       PHOTOS   PHSP;
+0.0001    anti-p-  mu+  nu_mu      PHOTOS    PHSP;
+Enddecay
 #
 Decay Lambda(1405)0
 0.3333    Sigma+   pi-    PHSP;
@@ -7729,9 +7743,16 @@ Decay anti-Sigma(1775)0
 0.055  anti-Sigma*-   pi+         PHSP;
 0.22   anti-Lambda(1520)0 pi0                             PHSP;
 Enddecay
-#
-#  Sigma+ is decayed in GEANT
-#
+Decay Sigma+
+0.5157    p+  pi0                       PHSP;
+0.4831    n0  pi+                       PHSP;
+0.0012    p+  gamma                      PHSP;
+Enddecay
+Decay anti-Sigma-
+0.5157    anti-p-  pi0                      PHSP;
+0.4831    anti-n0  pi-                      PHSP;
+0.0012    anti-p-  gamma                     PHSP;
+Enddecay
 #
 Decay Delta+
 0.6630    p+  pi0                       PHSP;
@@ -7778,10 +7799,12 @@ Decay anti-Delta+
 1.0000    anti-n0   pi+                     PHSP;
 Enddecay
 #
-#
-#  Sigma- is decayed in GEANT
-#
-#
+Decay Sigma-
+1.0000    n0    pi-                     PHSP;
+Enddecay
+Decay anti-Sigma+
+1.0000    anti-n0   pi+                     PHSP;
+Enddecay
 #
 Decay Sigma0
 1.0000    gamma  Lambda0                     PHSP;
@@ -7823,10 +7846,19 @@ Decay anti-Sigma*0
 0.0600    anti-Sigma+  pi-                    PHSP;
 Enddecay
 #
+Decay Xi0
+1.0000    Lambda0   pi0                     PHSP;
+Enddecay
+Decay anti-Xi0
+1.0000    anti-Lambda0 pi0                     PHSP;
+Enddecay
 #
-#  Xi0/Xi- is decayed in GEANT
-#
-#
+Decay Xi-
+1.0000    Lambda0   pi-                     PHSP;
+Enddecay
+Decay anti-Xi+
+1.0000    anti-Lambda0 pi+                     PHSP;
+Enddecay
 #
 Decay Xi*-
 0.6670    Xi0   pi-                     PHSP;
@@ -7837,10 +7869,16 @@ Decay anti-Xi*+
 0.3330    anti-Xi+  pi0                     PHSP;
 Enddecay
 #
-#
-#
-#  Omega- is decayed in GEANT
-#
+Decay Omega-
+0.6780    Lambda0   K-                      PHSP;
+0.2360    Xi0   pi-                     PHSP;
+0.0860    Xi-   pi0                     PHSP;
+Enddecay
+Decay anti-Omega+
+0.6780    anti-Lambda0  K+                     PHSP;
+0.2360    anti-Xi0   pi+                    PHSP;
+0.0860    anti-Xi+   pi0                    PHSP;
+Enddecay
 #
 #
 Decay Sigma_c*0
