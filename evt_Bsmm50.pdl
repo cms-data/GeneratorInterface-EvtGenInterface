@@ -1,6 +1,7 @@
 *---------------------------------------------------------------------------------------------------------------------------------------
 * 5/10/2013 Updated by R. Godang. The format and convention are based on the current evt.pdl and PDG 2012
 * 2017/11/14 ursl: modified BsH,L (and for completeness also Bs and Bsbar) to lifetime = 4.82366e-1 (1.609e-12sec, from PDG2017)
+* 2021/05/12 ckar: special kind of MC for BsToMuMu with different generated lifetime, modified BsH,L to lifetime = 4.4968900e-01 (1.50e-12sec)
 *---------------------------------------------------------------------------------------------------------------------------------------
 *                  name                  id      mass/GeV    width/GeV     max_Dm/GeV    3*charge   2*spin    lifetime*c/mm    PythiaId
 add  p Particle  K_4*+                            329  2.0450000e+00  1.9800000e-01  2.0000000e-01     3     8  0.0000000e+00          0
