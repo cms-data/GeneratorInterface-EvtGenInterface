@@ -1,0 +1,46 @@
+Alias myB+ B+
+Alias myB- B-
+Alias myB0 B0
+Alias myB0bar anti-B0
+Alias myB0s B_s0
+Alias myB0sbar anti-B_s0
+
+ChargeConj myB+ myB-
+ChargeConj myB0 myB0bar
+ChargeConj myB0s myB0sbar
+
+
+Decay myB+
+0.1227033868               mu+    hnl    PHSP;
+4.8953228280    anti-D0    mu+    hnl    PHSP;
+9.4715286846    anti-D*0   mu+    hnl    PHSP;
+0.0427603125    pi0        mu+    hnl    PHSP;
+0.0843161650    rho0       mu+    hnl    PHSP;
+Enddecay
+CDecay myB-
+
+Decay myB0
+4.4946329294    D-    mu+    hnl    PHSP;
+8.9294891446    D*-   mu+    hnl    PHSP;
+0.0805803320    pi-   mu+    hnl    PHSP;
+0.1564764196   rho-   mu+    hnl    PHSP;
+Enddecay
+CDecay myB0bar
+
+Decay myB0s
+4.5168422439    D_s-    mu+    hnl    PHSP;
+8.7466050011    D_s*-   mu+    hnl    PHSP;
+0.0991283159    K-      mu+    hnl    PHSP;
+0.1666679554    K*-     mu+    hnl    PHSP;
+Enddecay
+CDecay myB0sbar
+
+Decay hnl
+0.5     mu-    pi+    PHSP;
+0.5     mu+    pi-    PHSP;
+0.5     e-     pi+    PHSP;
+0.5     e+     pi-    PHSP;
+Enddecay
+
+
+End
