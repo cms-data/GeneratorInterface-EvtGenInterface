@@ -1,0 +1,21 @@
+Alias myBc+ B_c+
+Alias myBc- B_c-
+
+ChargeConj myBc+ myBc-
+
+
+Decay myBc+
+13.1417801672               mu+    hnl    PHSP;
+
+Enddecay
+CDecay myBc-
+
+Decay hnl
+0.5     mu-    pi+    PHSP;
+0.5     mu+    pi-    PHSP;
+0.5     e-     pi+    PHSP;
+0.5     e+     pi-    PHSP;
+Enddecay
+
+
+End
