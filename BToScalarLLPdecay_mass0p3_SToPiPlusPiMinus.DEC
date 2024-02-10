@@ -1,0 +1,35 @@
+Alias myB+ B+
+Alias myB- B-
+Alias myB0 B0
+Alias myB0bar anti-B0
+Alias myB0s B_s0
+Alias myB0sbar anti-B_s0
+
+ChargeConj myB+ myB-
+ChargeConj myB0 myB0bar
+ChargeConj myB0s myB0sbar
+
+
+Decay myB+
+0.448               K+        S    PHSP;
+0.552               K*+       S    PHSP;
+Enddecay
+CDecay myB-
+
+Decay myB0
+0.448               K0        S    PHSP;
+0.552               K*0       S    PHSP;
+Enddecay
+CDecay myB0bar
+
+Decay myB0s
+1.0               phi      S     PHSP;
+Enddecay
+CDecay myB0sbar
+
+Decay S
+1.0       pi+    pi-         PHSP;
+Enddecay
+
+
+End
